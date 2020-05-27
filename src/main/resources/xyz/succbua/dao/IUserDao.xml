@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "C:\Users\Administrator\Downloads\mybatis-3-mapper.dtd">
+<mapper namespace="xyz.succbua.dao.IUserDao">
+    <select id="findAll">
+        select * from user
+    </select>
+
+</mapper>
